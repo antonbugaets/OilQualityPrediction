@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>METANIT.COM</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<div id="message"></div>
+<div>
+    <form onsubmit="return false">
+    <p>
+        плотность деэмульгатора (т/м3): <br/>
+        <input required name="a" type="text" placeholder="0.945" id="a"/>
+    </p>
+    <p>кинематическая вязкость (мм2/с): <br/>
+        <input required name="b" type="text" placeholder="21.48" id="b"/>
+    </p>
+    <p>массовая доля активного вещества (%): <br/>
+        <input required name="c" type="text" placeholder="23.84"  id="c"/>
+    </p>
+    <p>плотность нефти (т/м3): <br/>
+        <input required name="d" type="text" placeholder="0.941"  id="d"/>
+    </p>
+    <button onclick="send()">Отправить</button>
+        </form>
+</div>
+<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
