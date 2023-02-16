@@ -1,0 +1,31 @@
+altgraph==0.17.3
+anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1666191106763/work/dist
+certifi==2022.12.7
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1666798198223/work
+fastapi @ file:///home/conda/feedstock_root/build_artifacts/fastapi_1676407540585/work
+gunicorn==20.1.0
+h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1664132893548/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+intel-openmp==2023.0.0
+joblib==1.2.0
+macholib==1.16.2
+mkl==2023.0.0
+mkl-fft==1.3.1
+mkl-random @ file:///opt/concourse/worker/volumes/live/a9eca864-069c-4240-73c8-4e51b036a10d/volume/mkl_random_1639994047876/work
+mkl-service==2.4.0
+numpy==1.24.2
+pickle-mixin==1.0.2
+pickle4==0.0.1
+pydantic @ file:///Users/runner/miniforge3/conda-bld/pydantic_1673305517693/work
+pyinstaller==5.8.0
+pyinstaller-hooks-contrib==2023.0
+scikit-learn==1.2.1
+scipy==1.10.0
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sklearn==0.0.post1
+sniffio @ file:///home/conda/feedstock_root/build_artifacts/sniffio_1662051266223/work
+starlette @ file:///home/conda/feedstock_root/build_artifacts/starlette-recipe_1676402644778/work
+tbb==2021.8.0
+threadpoolctl==3.1.0
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1665144421445/work
+uvicorn @ file:///Users/runner/miniforge3/conda-bld/uvicorn-split_1669234782319/work

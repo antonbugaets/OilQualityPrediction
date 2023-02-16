@@ -5,10 +5,17 @@ import uvicorn
 import os
 import pickle
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
+from pathlib import Path
 
 app = FastAPI()
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# app.mount("/static", StaticFiles(directory="static"), name="static")
+# app.mount('/static', StaticFiles(directory=os.path.join('static')), name='static')
+
+
+# BASE_DIR = Path("main.py").resolve().parent
+BASE_DIR = os.getcwd()
+print(BASE_DIR)
+app.mount("/static", StaticFiles(directory=Path(BASE_DIR, 'static')), name="static")
 
 
 @app.get("/")
@@ -36,4 +43,4 @@ def oil_advicer(a, b, c, d):  # Передаются: плотность деэ�
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", port=8000, host="0.0.0.0", reload=True)
+    uvicorn.run("main:app", port=8000, host="0.0.0.0", reload=False)
