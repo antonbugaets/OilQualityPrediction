@@ -10,21 +10,25 @@
 <div id="message"></div>
 <div>
     <form onsubmit="return false">
-    <p>
-        плотность деэмульгатора (т/м3): <br/>
-        <input required name="a" type="text" placeholder="0.945" id="a"/>
-    </p>
-    <p>кинематическая вязкость (мм2/с): <br/>
-        <input required name="b" type="text" placeholder="21.48" id="b"/>
-    </p>
-    <p>массовая доля активного вещества (%): <br/>
-        <input required name="c" type="text" placeholder="23.84"  id="c"/>
-    </p>
-    <p>плотность нефти (т/м3): <br/>
-        <input required name="d" type="text" placeholder="0.941"  id="d"/>
-    </p>
-    <button onclick="send()">Отправить</button>
-        </form>
+        <p>
+            удельный расход эмульсии (г/т); <br/>
+            <input required name="a" type="text" placeholder="0.945" id="a"/>
+        </p>
+        <p>
+            плотность деэмульгатора (г/м3): <br/>
+            <input required name="b" type="text" placeholder="0.945" id="b"/>
+        </p>
+        <p>кинематическая вязкость (мм2/с): <br/>
+            <input required name="c" type="text" placeholder="21.48" id="c"/>
+        </p>
+        <p>массовая доля активного вещества (%): <br/>
+            <input required name="d" type="text" placeholder="23.84" id="d"/>
+        </p>
+        <p>плотность нефти (г/м3): <br/>
+            <input required name="e" type="text" placeholder="0.941" id="e"/>
+        </p>
+        <button onclick="send()">Отправить</button>
+    </form>
 </div>
 <script type="text/javascript" src="script.js"></script>
 
